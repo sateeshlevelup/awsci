@@ -28,4 +28,4 @@ jobs:
          
       - name:  s3 acl
         run: |
-           aws s3api put-object-acl - bucket s3://${{ env.BUCKET_NAME }} - key OBJECT-KEY - acl public-read 
+           aws s3api put-object-acl --bucket githubsample-645373 --key OBJECT-KEY --acl public-read
