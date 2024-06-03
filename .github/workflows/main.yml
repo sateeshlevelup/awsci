@@ -3,7 +3,7 @@ on:
   push:
     branches: [ "master" ]
 env:
-  BUCKET_NAME : "githubsample-645373"
+  BUCKET_NAME : "newdemobukcfit"
   AWS_REGION : "ap-south-1"
 # permission can be added at job level or workflow level
 permissions:
